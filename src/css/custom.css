@@ -1,0 +1,23 @@
+:root {
+  --ifm-color-primary: #0f4c81;
+  --ifm-color-primary-dark: #0d4474;
+  --ifm-color-primary-darker: #0c406d;
+  --ifm-color-primary-darkest: #0a355a;
+  --ifm-color-primary-light: #11548e;
+  --ifm-color-primary-lighter: #125895;
+  --ifm-color-primary-lightest: #1463a8;
+  --ifm-code-font-size: 95%;
+  --fecr-green: #65a30d;
+  --fecr-orange: #f59e0b;
+  --fecr-soft: #eef7fb;
+}
+.hero--fecr {background: linear-gradient(135deg, #0f4c81 0%, #123d5a 65%, #1f2937 100%); color: white;}
+.hero--fecr .button {margin-right: .75rem; margin-top: .75rem;}
+.cards {display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 1rem; margin: 2rem 0;}
+.cardLink {border: 1px solid var(--ifm-color-emphasis-200); border-radius: 12px; padding: 1.25rem; background: white; color: inherit; text-decoration: none; box-shadow: 0 2px 10px rgba(0,0,0,.05);} 
+.cardLink:hover {text-decoration: none; transform: translateY(-2px); box-shadow: 0 6px 18px rgba(0,0,0,.08);} 
+.cardLink h3 {margin-top: 0;}
+.processLine {font-family: var(--ifm-font-family-monospace); background: var(--fecr-soft); padding: 1rem; border-left: 5px solid var(--fecr-green); border-radius: 8px; white-space: pre-wrap;}
+.callout {background: #fff7ed; border-left: 5px solid var(--fecr-orange); padding: 1rem; border-radius: 8px;}
+.nextStep {margin-top: 2rem; padding: 1rem; border-top: 1px solid var(--ifm-color-emphasis-200); font-weight: 600;}
+.heroImage {max-width: 100%; border-radius: 12px; box-shadow: 0 10px 30px rgba(0,0,0,.15);} 
