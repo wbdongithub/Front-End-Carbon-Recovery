@@ -1,1 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" fill="#157987"/><path d="M23 62c20-3 28-17 33-39 14 13 23 28 21 45-3 18-22 26-37 18-8-4-14-12-17-24z" fill="#8bbd78"/><path d="M31 72c13-9 25-18 34-35" stroke="#fff" stroke-width="6" fill="none" stroke-linecap="round"/></svg>
+{
+  "name": "front-end-carbon-recovery",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "docusaurus": "docusaurus",
+    "start": "docusaurus start",
+    "build": "docusaurus build",
+    "serve": "docusaurus serve",
+    "clear": "docusaurus clear"
+  },
+  "dependencies": {
+    "@docusaurus/core": "3.8.1",
+    "@docusaurus/preset-classic": "3.8.1",
+    "@mdx-js/react": "3.1.0",
+    "clsx": "2.1.1",
+    "prism-react-renderer": "2.4.1",
+    "react": "19.1.0",
+    "react-dom": "19.1.0"
+  },
+  "devDependencies": {
+    "@docusaurus/module-type-aliases": "3.8.1",
+    "@docusaurus/types": "3.8.1"
+  },
+  "engines": {
+    "node": ">=18.0"
+  }
+}
