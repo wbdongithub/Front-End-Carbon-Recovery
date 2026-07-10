@@ -1,28 +1,53 @@
-# Front End Carbon Recovery Docusaurus Site
-
-This is the first Docusaurus version of the Front End Carbon Recovery website.
-
-## Local preview
-
-```bash
-npm install
-npm start
-```
-
-## Build
-
-```bash
-npm run build
-```
-
-## GitHub Pages
-
-This repository includes a GitHub Actions workflow that builds and publishes the site to GitHub Pages.
-
-After uploading the files to GitHub:
-
-1. Go to **Settings → Pages**.
-2. Under **Build and deployment**, select **GitHub Actions**.
-3. The workflow will publish the site after the next push to `main`.
-
-If the repository or account name changes, update `url`, `baseUrl`, `organizationName`, and `projectName` in `docusaurus.config.js`.
+const config = {
+  title: 'Front End Carbon Recovery',
+  tagline: 'Recover solids early. Simplify treatment. Create value.',
+  favicon: 'img/favicon.svg',
+  url: 'https://wbdongithub.github.io',
+  baseUrl: '/Front-End-Carbon-Recovery/',
+  organizationName: 'wbdongithub',
+  projectName: 'Front-End-Carbon-Recovery',
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
+  presets: [[
+    'classic',
+    {
+      docs: {sidebarPath: require.resolve('./sidebars.js'), routeBasePath: 'guide'},
+      blog: false,
+      theme: {customCss: require.resolve('./src/css/custom.css')}
+    }
+  ]],
+  themeConfig: {
+    image: 'img/fecr-flow.png',
+    navbar: {
+      title: 'FECR',
+      logo: {alt: 'FECR mark', src: 'img/logo.svg'},
+      items: [
+        {to: '/guide/why-fecr', label: 'Why FECR', position: 'left'},
+        {to: '/guide/process-overview', label: 'Process', position: 'left'},
+        {to: '/guide/staged-implementation', label: 'Implementation', position: 'left'},
+        {to: '/guide/demonstration-program', label: 'Demonstration', position: 'left'},
+        {to: '/guide/technical-library', label: 'Technical Library', position: 'left'},
+        {href: 'https://github.com/wbdongithub/Front-End-Carbon-Recovery', label: 'GitHub', position: 'right'}
+      ]
+    },
+    footer: {
+      style: 'dark',
+      links: [
+        {title: 'Understand FECR', items: [
+          {label: 'Why FECR', to: '/guide/why-fecr'},
+          {label: 'Process overview', to: '/guide/process-overview'},
+          {label: 'Is my plant a candidate?', to: '/guide/candidate-checklist'}
+        ]},
+        {title: 'Explore', items: [
+          {label: 'Demonstration program', to: '/guide/demonstration-program'},
+          {label: 'Technical library', to: '/guide/technical-library'},
+          {label: 'Terminology', to: '/guide/terminology'}
+        ]}
+      ],
+      copyright: `Front End Carbon Recovery Knowledge Base — Version 0.1 Foundations`
+    },
+    colorMode: {defaultMode: 'light', respectPrefersColorScheme: true},
+    prism: {additionalLanguages: []}
+  }
+};
+module.exports = config;
