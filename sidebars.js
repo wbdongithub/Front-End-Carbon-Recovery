@@ -6,8 +6,8 @@ const sidebars = {
       collapsed: false,
       items: [
         'why-fecr',
-        'why-plants-struggle',
-        'candidate-checklist',
+        'plants-struggle',
+        'candidate-check',
       ],
     },
     {
@@ -44,3 +44,5 @@ const sidebars = {
 };
 
 module.exports = sidebars;
+
+
