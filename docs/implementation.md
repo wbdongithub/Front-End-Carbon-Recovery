@@ -21,7 +21,7 @@ Landfill, transport or otherwise manage the dewatered material under applicable 
 </div>
 <div className="stageCard">
 ### Stage 4 — Add drying
-Produce a stable, low-moisture material and prepare for economical transport or future pyrolysis.
+Produce Class A biosolids, low-moisture material and prepare for economical transport or future pyrolysis.
 </div>
 <div className="stageCard">
 ### Stage 5 — Add pyrolysis
@@ -29,7 +29,7 @@ Destroy organic contaminants, reduce mass and produce biochar.
 </div>
 <div className="stageCard">
 ### Stage 6 — Develop biochar outlets
-Address carbon storage or product uses in a separate, more specialized program.
+Address carbon storage or product uses in a separate, more specialized program, potentially for wastewater cleanup.
 </div>
 </div>
 
