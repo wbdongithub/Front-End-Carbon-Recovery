@@ -1,28 +1,46 @@
-{
-  "name": "fecr-knowledge-base",
-  "version": "0.1.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "clear": "docusaurus clear",
-    "serve": "docusaurus serve"
-  },
-  "dependencies": {
-    "@docusaurus/core": "3.8.1",
-    "@docusaurus/preset-classic": "3.8.1",
-    "@mdx-js/react": "^3.0.0",
-    "clsx": "^2.1.1",
-    "prism-react-renderer": "^2.4.1",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.8.1",
-    "@docusaurus/types": "3.8.1"
-  },
-  "engines": {"node": ">=18.0"}
-}
+const sidebars = {
+  guideSidebar: [
+    {
+      type: 'category',
+      label: 'Start Here',
+      collapsed: false,
+      items: [
+        'why-fecr',
+        'why-plants-struggle',
+        'candidate-checklist',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'The FECR Process',
+      collapsed: false,
+      items: [
+        'process-overview',
+        'microscreens',
+        'dewatering',
+        'drying',
+        'pyrolysis',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Putting FECR to Work',
+      collapsed: false,
+      items: [
+        'implementation',
+        'demonstrations',
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Reference',
+      collapsed: false,
+      items: [
+        'technical-library',
+        'terminology',
+      ],
+    },
+  ],
+};
+
+module.exports = sidebars;
