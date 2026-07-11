@@ -12,7 +12,7 @@ Wastewater passes through a moving fine-mesh belt. Fibrous solids collect on the
 
 ![See-through microscreen model](/img/microscreen-model-a.png)
 
-The transparent model makes the principle visible: long cellulose fibers are captured while much smaller particles pass through. Belt speed can also be adjusted to permit a filter mat to develop and capture finer solids.
+The transparent model makes the principle visible: long cellulose fibers are captured while much smaller particles pass through. Belt speed can be adjusted to permit a filter mat to develop and capture finer solids. Changing belt sieve size gives additional control
 
 ## Why cellulose matters
 
@@ -23,7 +23,7 @@ A substantial fraction of municipal influent solids is cellulose, largely from t
 The most direct FECR arrangement places the microscreen on raw wastewater downstream of grit removal. A portable demonstration unit can also explore other locations, including concentrated primary solids streams.
 
 <div className="nextBox">
-**Next:** Capturing solids is only the first step. The integral press is important because mechanical water removal is far less expensive than evaporation.
+**Next:** Capturing solids is only the first step. The integral screw-press additiona water to make 30-40% solids. Mechanical water removal is far less expensive than evaporation.
 
 [Dewatering →](./dewatering)
 </div>
