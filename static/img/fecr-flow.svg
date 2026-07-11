@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 620" role="img" aria-labelledby="title desc">
+  <title id="title">Front End Carbon Recovery process flow</title>
+  <desc id="desc">Wastewater flows through a microscreen. Recovered solids are dewatered, optionally dried, and then pyrolyzed to produce biochar. Filtered wastewater continues to the existing treatment plant.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fcfb"/>
+      <stop offset="1" stop-color="#edf6f3"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#1b5662" flood-opacity="0.12"/>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L10,5 L0,10 z" fill="#638b91"/>
+    </marker>
+  </defs>
+  <rect x="12" y="12" width="956" height="596" rx="28" fill="url(#bg)" stroke="#d7e6e3"/>
+
+  <text x="58" y="64" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="800" letter-spacing="2" fill="#39785f">FRONT END CARBON RECOVERY</text>
+  <text x="58" y="101" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="28" font-weight="750" fill="#17313a">Remove solids early. Give every downstream process less work.</text>
+
+  <g filter="url(#shadow)">
+    <rect x="58" y="162" width="180" height="112" rx="17" fill="#ffffff" stroke="#bdd8d4"/>
+    <circle cx="92" cy="197" r="18" fill="#dff0ec"/>
+    <path d="M79 198c9-13 21-13 30 0-9 13-21 13-30 0z" fill="#176b80" opacity=".85"/>
+    <text x="122" y="194" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750" fill="#17313a">Raw wastewater</text>
+    <text x="82" y="236" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">After coarse screening</text>
+    <text x="82" y="258" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">and grit removal</text>
+  </g>
+
+  <line x1="238" y1="218" x2="296" y2="218" stroke="#638b91" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="306" y="142" width="222" height="152" rx="20" fill="#ffffff" stroke="#8cc4b4" stroke-width="2"/>
+    <rect x="335" y="171" width="56" height="72" rx="8" fill="#e3f2ee" stroke="#39785f"/>
+    <path d="M343 231l39-49" stroke="#39785f" stroke-width="7" stroke-linecap="round"/>
+    <path d="M349 223h28M354 213h28M360 202h28M367 191h17" stroke="#8bbdad" stroke-width="2"/>
+    <text x="413" y="184" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="800" fill="#17313a">Microscreen</text>
+    <text x="413" y="207" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="650" fill="#176b80">Rotating Belt Filter (RBF)</text>
+    <text x="413" y="236" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">Captures fibrous and other</text>
+    <text x="413" y="257" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">suspended solids</text>
+  </g>
+
+  <path d="M417 294v56" stroke="#638b91" stroke-width="4" marker-end="url(#arrow)"/>
+  <path d="M528 218h92" stroke="#638b91" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="634" y="162" width="282" height="112" rx="17" fill="#ffffff" stroke="#bdd8d4"/>
+    <circle cx="675" cy="207" r="25" fill="#e5f1f4"/>
+    <path d="M662 210h26M666 200h18M670 190h10" stroke="#176b80" stroke-width="4" stroke-linecap="round"/>
+    <text x="716" y="198" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750" fill="#17313a">Filtered wastewater</text>
+    <text x="716" y="227" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">Continues to the existing WWTP</text>
+    <text x="716" y="249" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">with a lower solids burden</text>
+  </g>
+
+  <g filter="url(#shadow)">
+    <rect x="306" y="365" width="222" height="104" rx="17" fill="#ffffff" stroke="#d7c88c"/>
+    <circle cx="346" cy="417" r="25" fill="#f4edd2"/>
+    <path d="M332 417h28M337 408h18M337 426h18" stroke="#967f31" stroke-width="4" stroke-linecap="round"/>
+    <text x="385" y="406" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="20" font-weight="750" fill="#17313a">Screw press</text>
+    <text x="385" y="433" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">About 35–40% solids</text>
+    <text x="385" y="454" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="15" fill="#52676e">where demonstrated</text>
+  </g>
+
+  <line x1="528" y1="417" x2="582" y2="417" stroke="#638b91" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="594" y="365" width="150" height="104" rx="17" fill="#ffffff" stroke="#efbd89"/>
+    <circle cx="627" cy="405" r="20" fill="#fff0df"/>
+    <path d="M619 416c0-13 17-13 17-25 8 9 6 20-2 27" fill="none" stroke="#ca6f2b" stroke-width="3"/>
+    <text x="660" y="405" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="750" fill="#17313a">Drying</text>
+    <text x="616" y="445" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#52676e">Optional stage</text>
+  </g>
+
+  <line x1="744" y1="417" x2="786" y2="417" stroke="#638b91" stroke-width="4" marker-end="url(#arrow)"/>
+
+  <g filter="url(#shadow)">
+    <rect x="798" y="365" width="118" height="104" rx="17" fill="#ffffff" stroke="#e7a77c"/>
+    <path d="M828 431c-15-18 12-29 2-48 23 15 29 39 8 55" fill="#e37d36" opacity=".85"/>
+    <text x="852" y="405" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="750" fill="#17313a">Pyrolysis</text>
+    <text x="821" y="449" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="14" fill="#52676e">Biochar + heat</text>
+  </g>
+
+  <text x="58" y="548" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="16" font-weight="750" fill="#39785f">MODULAR BY DESIGN</text>
+  <text x="58" y="578" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="17" fill="#52676e">A utility can stop after dewatering, add drying later, or send dry material to a regional pyrolysis facility.</text>
+</svg>

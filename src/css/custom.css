@@ -1,0 +1,145 @@
+:root {
+  --ifm-color-primary: #176b80;
+  --ifm-color-primary-dark: #145f72;
+  --ifm-color-primary-darker: #135a6b;
+  --ifm-color-primary-darkest: #0f4a58;
+  --ifm-color-primary-light: #19778e;
+  --ifm-color-primary-lighter: #1b7c95;
+  --ifm-color-primary-lightest: #1f8ca8;
+  --ifm-heading-color: #17313a;
+  --ifm-font-family-base: Inter, "Segoe UI", Arial, sans-serif;
+  --ifm-font-size-base: 16px;
+  --ifm-line-height-base: 1.62;
+  --ifm-navbar-height: 60px;
+  --ifm-container-width: 1320px;
+  --ifm-container-width-xl: 1500px;
+  --doc-sidebar-width: 270px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: #263d45;
+}
+
+.navbar {
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.08);
+}
+
+.navbar__inner {
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+.navbar__title {
+  font-weight: 850;
+  letter-spacing: 0.04em;
+}
+
+.navbar__link {
+  font-size: 0.94rem;
+}
+
+.main-wrapper {
+  min-height: calc(100vh - var(--ifm-navbar-height));
+}
+
+.theme-doc-markdown {
+  font-size: 0.99rem;
+  line-height: 1.66;
+}
+
+.theme-doc-markdown h1 {
+  font-size: clamp(2rem, 3.1vw, 3rem);
+  letter-spacing: -0.025em;
+  margin-bottom: 0.65em;
+}
+
+.theme-doc-markdown h2 {
+  font-size: clamp(1.48rem, 2vw, 2rem);
+  margin-top: 1.7em;
+}
+
+.theme-doc-markdown h3 {
+  font-size: 1.22rem;
+}
+
+.theme-doc-markdown img {
+  max-height: 620px;
+  width: auto;
+  max-width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.11);
+}
+
+.theme-doc-markdown table {
+  display: table;
+  width: 100%;
+  font-size: 0.94rem;
+}
+
+.theme-doc-sidebar-container {
+  border-right-color: #e2eaec !important;
+}
+
+.theme-doc-toc-desktop {
+  font-size: 0.88rem;
+}
+
+.pagination-nav__label {
+  font-size: 0.95rem;
+}
+
+.button--lg {
+  font-size: 1rem;
+  padding: 0.72rem 1.16rem;
+}
+
+.nextBox {
+  margin-top: 34px;
+  padding: 18px 20px;
+  border: 1px solid #cfe0e3;
+  border-radius: 11px;
+  background: #f4f9f9;
+}
+
+.stageGrid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 14px;
+}
+
+.stageCard {
+  border-left: 4px solid #4c9a72;
+  background: #f5faf7;
+  padding: 16px 18px;
+  border-radius: 8px;
+}
+
+.stageCard h3 {
+  margin-top: 0;
+  font-size: 1.13rem;
+}
+
+@media (min-width: 997px) {
+  .docPage_node_modules-\@docusaurus-theme-classic-lib-theme-DocPage-Layout-styles-module,
+  .docPage_\* {
+    max-width: none;
+  }
+
+  .theme-doc-markdown {
+    max-width: 1060px;
+  }
+}
+
+@media (max-width: 760px) {
+  :root {
+    --ifm-font-size-base: 15px;
+  }
+
+  .stageGrid {
+    grid-template-columns: 1fr;
+  }
+}

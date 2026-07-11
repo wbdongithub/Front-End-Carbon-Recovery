@@ -1,0 +1,12 @@
+FECR VERSION 1.0 — REPOSITORY REPLACEMENT
+
+1. In GitHub Desktop, select the Front-End-Carbon-Recovery repository.
+2. Use Repository > Show in Explorer.
+3. In the repository folder, delete the existing project contents EXCEPT the hidden .git folder.
+4. Open the unzipped fecr-docusaurus-v1.0 folder.
+5. Copy every item inside it into the repository folder.
+6. Return to GitHub Desktop.
+7. Enter summary: Install FECR Version 1.0
+8. Click Commit to main.
+9. Click Push origin.
+10. Watch the GitHub Actions run. The site should update automatically.
