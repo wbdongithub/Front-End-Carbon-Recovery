@@ -12,14 +12,14 @@ The captured material is rich in fibers. Much of its water is held between the f
 
 A useful working comparison is:
 
-- **Microscreen solids:** potentially about 35–40% total solids after pressing.
+- **Microscreen solids:** usually 35–40% total solids after pressing front end solids.
 - **Conventional dewatered back-end sludge:** commonly around 20% total solids, depending on process and equipment.
 
 Actual performance must be confirmed for each wastewater and machine.
 
 ## Why this matters
 
-Drying cost is largely the cost of removing water. Raising a cake from 20% to 90% solids requires evaporating far more water than raising a 35–40% cake to the same final dryness.
+Drying cost is largely the cost of removing water. Raising a cake from 20% to 90% solids requires evaporating over twice the amount of water than raising a 35–40% cake to the same final dryness.
 
 <div className="nextBox">
 **Next:** Once most free water has been removed mechanically, low-temperature heat-pump drying becomes a practical optional stage.
