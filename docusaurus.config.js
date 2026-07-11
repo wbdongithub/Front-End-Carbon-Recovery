@@ -1,7 +1,6 @@
 const config = {
   title: 'Front End Carbon Recovery',
   tagline: 'Recover solids early. Simplify treatment. Create value.',
-  favicon: 'img/fecr-mark.svg',
 
   url: 'https://wbdongithub.github.io',
   baseUrl: '/Front-End-Carbon-Recovery/',
@@ -9,7 +8,7 @@ const config = {
   organizationName: 'wbdongithub',
   projectName: 'Front-End-Carbon-Recovery',
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
   trailingSlash: false,
 
@@ -32,26 +31,11 @@ const config = {
   themeConfig: {
     navbar: {
       title: 'FECR',
-      logo: {
-        alt: 'FECR mark',
-        src: 'img/fecr-mark.svg',
-      },
       items: [
-        {to: '/guide/why-fecr', label: 'Why FECR?', position: 'left'},
-        {to: '/guide/process-overview', label: 'Process', position: 'left'},
         {
-          to: '/guide/implementation',
-          label: 'Implementation',
-          position: 'left',
-        },
-        {
-          to: '/guide/demonstrations',
-          label: 'Demonstrations',
-          position: 'left',
-        },
-        {
-          to: '/guide/technical-library',
-          label: 'Technical Library',
+          type: 'docSidebar',
+          sidebarId: 'guideSidebar',
+          label: 'Explore FECR',
           position: 'left',
         },
         {
@@ -66,28 +50,17 @@ const config = {
       style: 'dark',
       links: [
         {
-          title: 'Explore',
+          title: 'FECR',
           items: [
-            {label: 'Why FECR?', to: '/guide/why-fecr'},
-            {label: 'How it works', to: '/guide/process-overview'},
             {
-              label: 'Implementation stages',
-              to: '/guide/implementation',
-            },
-          ],
-        },
-        {
-          title: 'Project',
-          items: [
-            {label: 'Demonstrations', to: '/guide/demonstrations'},
-            {
-              label: 'Technical Library',
-              to: '/guide/technical-library',
+              label: 'Explore the site',
+              to: '/guide/intro',
             },
           ],
         },
       ],
-      copyright: 'Front End Carbon Recovery — Prototype v0.1',
+      copyright:
+        'Front End Carbon Recovery — Prototype Version 0.1',
     },
 
     colorMode: {
