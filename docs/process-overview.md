@@ -13,7 +13,7 @@ FECR is a treatment train rather than a single machine.
 1. **Raw wastewater after grit removal** enters the FECR system.
 2. A **microscreen**, also called a **Rotating Belt Filter (RBF)** in scientific literature, captures much of the fibrous suspended solids.
 3. An integral **screw press** mechanically removes water, producing a much drier solids cake than typical back-end sludge.
-4. A **low-temperature heat-pump dryer** can produce a stable, transportable dried material.
+4. A **low-temperature heat-pump dryer** produces Class A biosolids, transportable dried material.
 5. **Pyrolysis** converts the dried solids to biochar while the process gas is fully combusted at high temperature.
 
 ## The process can stop at any stage
