@@ -4,7 +4,7 @@ title: Dewatering
 
 # Dewatering the Recovered Solids
 
-Microscreen solids are initially very wet when removed from the belt. An integral screw press then removes free water mechanically.
+The Microscreen has an integral screw press. Together they remove the water to make 35-40% solids.
 
 ## Why early solids dewater differently
 
