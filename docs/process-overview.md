@@ -18,7 +18,7 @@ FECR is a treatment train rather than a single machine.
 
 ## The process can stop at any stage
 
-A utility may use only the microscreen and dispose of the dewatered solids. Another may add drying but transport the dried material to a regional pyrolysis facility. A larger project may install the entire process locally.
+A utility may use only the microscreen and dispose of the dewatered solids. Another may add drying to make Class A biosolids. Some may send the dried biosolids to a local or regional pyrolysis facility. A larger project may install the entire process locally.
 
 This modularity is central to FECR.
 
