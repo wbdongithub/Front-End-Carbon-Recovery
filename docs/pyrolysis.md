@@ -4,7 +4,7 @@ title: Pyrolysis
 
 # Pyrolysis
 
-Pyrolysis heats dried carbonaceous solids with little or no oxygen. The process produces a solid carbon-rich material and combustible gases.
+Pyrolysis heats dried carbonaceous solids with little or no oxygen. The process produces a solid carbon-rich biochar material and combustible gases that are burned at high temperature.
 
 ## Role in FECR
 
@@ -15,7 +15,7 @@ The FECR concept uses pyrolysis to:
 - destroy organic contaminants under properly designed operating conditions;
 - recover useful heat from the process gas.
 
-The off-gas should be completely combusted in a properly designed high-temperature oxidation system. Emissions, residence time, temperature, feed composition and permitting are project-specific engineering matters.
+The off-gas should be completely combusted in a properly designed high-temperature oxidation system. Emissions, residence time, temperature, feed composition and permitting are project-specific engineering matters. Offgas scrubbers are sometimes needed when using sewage sludge feed stocks.
 
 ## Commercial equipment
 
